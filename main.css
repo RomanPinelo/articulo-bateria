@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body{
+  background-color: black;
+  color: white;
+  font-family: Prompt;
+  text-align: justify;
+  letter-spacing: .40em;
+  line-height: 1.16;
+}
+
+/*Poner los bordes de la tabla*/
+table, tbody, tr, td, th {
+  border-collapse: collapse;
+  border: #737373 4px solid;
+}
+
+ol {
+  list-style: decimal;
+  width: 87%;
+  margin-left: 110px;
+  font-size: 20px;
+}
+
+ul {
+  list-style: square;
+  margin-left: 22px;
+  font-size: 20px;
+}
+
+a {
+  color: #0EADC9;
+}
+
+a:hover {
+  color: #00ffff;
+}
+
+#imagen_encabezado {
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+  top: -70px;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h2 {
+  margin-left: 120px;
+  margin-top: 40px;
+  font-size: 25px;
+  color: orange;
+}
+
+p, table, hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+figure {
+  text-align: center;
+}
+
+p, table, h2, figure, ol, blockquote, hr {
+  position: relative;
+  top: -30px;
+}
+
+#primera_ilustracion {
+  height: auto;
+  width: 350px;
+}
+
+#segunda_ilustracion {
+  position: relative;
+  top: -30px;
+  margin-left: 350px;
+  height: auto;
+  width: 800px;
+}
+
+#tercera_ilustracion {
+  height: auto;
+  width: 1000px;
+}
+
+#cuarta_ilustracion {
+  height: auto;
+  width: 500px;
+}
+
+th {
+  background-color: white;
+  color: green;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+caption {
+  font-size: 40px;
+}
+
+td {
+  text-align: center;
+}
+
+.columna_texto {
+  vertical-align: middle;
+}
+
+.columna_imagen {
+  padding: 10px;
+  height: auto;
+  width: 150px;
+}
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #3366ff;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: yellow 5px solid;
+  border-radius: 50px;
+}
+
+#quinta_ilustracion {
+  height: auto;
+  width: 500px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #4dffd2;
+}
